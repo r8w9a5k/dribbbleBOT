@@ -6,5 +6,7 @@
 4. Paste in browser's console (in Chrome hotkey is F12)
 5. Press enter
 
-# dribbbleBOT gives a like and then move to the next shot. This process is repeated infinitely.
-# Added new feature - if dribbbleBOT or you manually already liked current shot, it goes to the next shot. 
+
+dribbbleBOT gives a like and then move to the next shot. This process is repeated infinitely.
+
+Added new feature - if dribbbleBOT or you already liked current shot, it goes to the next shot. 
