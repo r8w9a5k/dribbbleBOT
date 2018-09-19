@@ -13,7 +13,7 @@ var next = document.querySelector(".shot-nav-next a"); //select next page
 		var canceled = !elem.dispatchEvent(evt); // end of core simulate click function
 	};
 
-		if (like.innerHTML == "Like?"){ //if selected like button == "Like?"
+		if (!like.classList.contains('current-user-likes')){
 			simulateClick(like);	//then like
 			simulateClick(next);	//&& go next
 		}
