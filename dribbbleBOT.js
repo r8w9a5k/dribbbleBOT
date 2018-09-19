@@ -1,8 +1,8 @@
 javascript:
 
 function run(){ //function run wraps all the code into one run() function
-var like = document.querySelector(".stats-label"); //select like button
-var next = document.querySelector(".shot-nav-next"); //select next page
+var like = document.querySelector(".like-shot"); //select like button
+var next = document.querySelector(".shot-nav-next a"); //select next page
 
 	function simulateClick (elem) { 		     //core of simulate click function
 		var evt = new MouseEvent('click', {
