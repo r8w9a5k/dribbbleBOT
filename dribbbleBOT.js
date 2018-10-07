@@ -1,8 +1,8 @@
 javascript:
 
 function run(){ //function run wraps all the code into one run() function
-var like = document.querySelector(".stats-label"); //select like button
-var next = document.querySelector(".shot-nav-next"); //select next page
+var like = document.querySelector(".like-shot"); //select like button
+var next = document.querySelector(".shot-nav-next a"); //select next page
 
 	function simulateClick (elem) { 		     //core of simulate click function
 		var evt = new MouseEvent('click', {
@@ -13,7 +13,7 @@ var next = document.querySelector(".shot-nav-next"); //select next page
 		var canceled = !elem.dispatchEvent(evt); // end of core simulate click function
 	};
 
-		if (like.innerHTML == "Like?"){ //if selected like button == "Like?"
+		if (!like.classList.contains('current-user-likes')){
 			simulateClick(like);	//then like
 			simulateClick(next);	//&& go next
 		}
