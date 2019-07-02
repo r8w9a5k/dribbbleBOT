@@ -14,9 +14,11 @@ var next = document.querySelector(".shot-nav-next a");
       if (!like.classList.contains("current-user-likes")){
 	simulateClick(like);
 	simulateClick(next);
+	console.log("Liked!");
       }
       else {
 	simulateClick(next);
+	console.log("Skipped!");
       }
 
   }
