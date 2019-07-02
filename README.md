@@ -1,4 +1,4 @@
-# Dribbble bot
+# DribbbleBOT.js
 # dribbbleBOT.js is a console script that automatically likes dribbble shots.
 
 1. Log in to dribbble
