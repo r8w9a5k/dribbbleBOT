@@ -1,5 +1,5 @@
 function run() {
-  var like = document.querySelector('.shot-header .like-shot');
+  var like = document.querySelector(".shot-header .like-shot");
   var next = document.querySelector(".shot-nav-next a");
 
   function simulateClick(elem) {
@@ -21,4 +21,4 @@ function run() {
   }
 }
 
-setInterval(run, 2000);
+setInterval(run, 3000);
